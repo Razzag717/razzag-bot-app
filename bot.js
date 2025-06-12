@@ -2,7 +2,7 @@ const irc = require('irc');
 
 // Your existing IRC bot code here
 const config = {
-  channels: ['#Kuwait', '#Razzag.com', #'#underground'],
+  channels: ['#Kuwait', '#Razzag.com', '#underground'],
   server: 'irc.dal.net',
   botName: 'RazzB'
 };
