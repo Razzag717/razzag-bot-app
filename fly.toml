@@ -1,0 +1,14 @@
+app = "razzag-bot-app" # <-- change this to your fly.io app name
+
+[build]
+  builder = "paketobuildpacks/builder:base"
+
+[env]
+  NODE_ENV = "production"
+
+[[services]]
+  internal_port = 8080
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 8080
